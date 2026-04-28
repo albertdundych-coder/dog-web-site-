@@ -1,72 +1,91 @@
-body{
+body {
     background-image: url("https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: Arial, sans-serif ;
     padding: 20px;
 }
-a{
-    text-decoration: none;
-    color: brown;
-    margin-right: 20px;
-    font-size: 55px;
-}
-a:hover{
-    color: rgb(150, 105, 26);
-}
 
-p{
-    font-size: 35px;
-    color: rgb(59, 55, 55);
-
-
-}
-ul{
-    font-size: 28px;
-}
-h1{
+h1 {
     font-size: 50px;
-
-}
-
-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.dog{
-    display:inline-block;
-    width: 22%;;
-    margin: 1%;
     text-align: center;
-    padding: 10px;
+    color: brown;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.dog {
+    background-color: white;
+    min-width: 250px;
+    width: calc(25% - 20px);
+    text-align: center;
+    padding: 15px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
-.dog:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(red, green, blue, alpha);
 
+.dog:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.dog img{
+
+.dog img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px
     transition: transform 0.4s ease;
-    border-radius: 10px;
 }
-.dog:hover img{
+
+.dog:hover img {
     transform: scale(0.9);
 }
-.dog p{
+
+p {
+    font-size: 25px;
+    color: rgb(59, 55, 55);
+}
+
+.dog p {
     transition: transform 0.5 ease;
 }
-.dog:hover p{
+
+.dog:hover p {
     color:darkblue ;
 }
 
-.links a:hover {
-    transform: scale(0.9);
+.links a {
+    text-decoration: none;
+    color: brown;
+    margin-right: 20px;
+    font-size: 40px;
+    display: inline-block;
     transition: transform 0.4s ease;
+}
 
+.links a:hover {
+    color: rgb(150, 105, 26);
+    transform: scale(0.9);
+}
+
+@media (max-width: 600px) {
+    .dog {
+        width: 100%;
+    }
+    h1 {
+    font-size: 35px;
+    }
+}
+
+ul {
+    font-size: 28px;
 }
 
 

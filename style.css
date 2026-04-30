@@ -3,7 +3,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: Arial, sans-serif ;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 20px;
 }
 
@@ -65,7 +67,7 @@ p {
     text-decoration: none;
     color: brown;
     margin-right: 20px;
-    font-size: 40px;
+    font-size: 70px;
     display: inline-block;
     transition: transform 0.4s ease;
 }
@@ -88,4 +90,30 @@ ul {
     font-size: 28px;
 }
 
+@media (max-width: 800px) {
+    .dog h2{
+        color: pink;
+    }}
+
+.bu {
+    color: blue;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.ma {
+    font-size: 50px;
+}
+.links {
+    text-align: center;
+    font-family:"Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dog-grid {
+    font-size: 35px;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 

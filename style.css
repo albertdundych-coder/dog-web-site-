@@ -110,10 +110,76 @@ ul {
   font-weight: 400;
   font-style: normal;
 }
-.dog-grid {
-    font-size: 35px;
-  font-family: "Bungee", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+
+.dog-btc {
+    color: lightsalmon;
+    background-color: brown;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 20px;
+}
+.dog-btc:hover {
+    background-color: rgp(150, 105, 26);
+    transform: scale(1.10);
+}
+.like {
+    font-size: 60px;
+    text-align: center;
+}
+.star {
+    color: rgb(255, 204, 0);
+    font-size: 100px;
+}
+.toggle-button {
+    font-size: 40px;
+    color: rgb(255, 179, 0);
+    border-radius: 40px;
+    background-color: rgb(168, 131, 0);
+    width: 120px;
+}
+.dark-mode {
+    color: gray;
+    background-image: url("https://images.unsplash.com/photo-1615789591457-74a63395c990?q=80&w=1974&auto=format&fit=crop"); ;
 }
 
+.header {
+    font-size: 100px;
+}
+.span {
+    background-color: rgb(255, 179, 0);
+    border-radius: 20px;
+    border: none;
+    color: rgb(131, 94, 0);
+    width: 100px;
+    
+}
+
+.span {
+    background-color: rgb(255, 179, 0);
+    border-radius: 20px;
+    color: rgb(131, 94, 0);
+    width: 100px;
+    margin: 10px auto;      /* центрирует блок */
+    text-align: center;  /* центрирует текст внутри */
+}
+
+.dark-mode .toggle-button {
+    background-color: brown;
+    color: lightsalmon;
+}
+.quiz-botton {
+    border-radius: 20px;
+    background-color: rgb(205, 157, 0);
+    width: 275px;
+    margin: 10px auto;      /* центрирует блок */
+    text-align: center;  /* центрирует текст внутри */
+    height: 25px;
+    color: salmon;
+}
+.quiz-btn {
+    border-radius: 20px;
+    border: none;
+    
+}

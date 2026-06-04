@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Dogs Gallery</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <button class="toggle-button" id="toggle">light</button>
     <h1 class="header">DOGS</h1>
 
     <div class="container">
@@ -18,33 +20,74 @@
             <img
         src="Funny_Dog_S (1).avif" alt="funny dog!" alt="funny dog">
                     <p>He is funny and likes to climb on trees!</p>
+                     <div class="quiz-container">
+                <h3>'How much trees did he climb?'</h3>
+                <div class="quiz-botton">
+                    <button class="quiz-btn" onclick="checkAnswearChapik(1)">'100'</button>
+                    <button class="quiz-btn" onclick="checkAnswearChapik(2)">'13'</button>
+                    <button class="quiz-btn" onclick="checkAnswearChapik(3)">'28'</button>
+                    <button class="quiz-btn" onclick="checkAnswearChapik(4)">'67'</button>
+                </div>
+                <p id="resulte2">result</p>
+            </div>
+                    <p class="span">Likes: <span id="span">0</span></p>
+                    <button class="dog-btc" id="bog">dog pet</button> 
     </div>
     <div class="dog">
         <h2>Boba</h2>
         <img
         src="https://plus.unsplash.com/premium_photo-1694819488591-a43907d1c5cc?q=80&w=1014&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cute dog">
-        <p>He is cute and likes to be on the bed!</p>">
+        <p>He is cute and likes to be on the bed!</p>
+        <div class="quiz-container">
+                <h3>'How much % is he cute?'</h3>
+                <div class="quiz-botton">
+                    <button class="quiz-btn" onclick="checkAnswear(1)">'100%'</button>
+                    <button class="quiz-btn" onclick="checkAnswear(2)">'10000%'</button>
+                    <button class="quiz-btn" onclick="checkAnswear(3)">'50%'</button>
+                    <button class="quiz-btn" onclick="checkAnswear(4)">'75%'</button>
+                </div>
+                <p id="resulte">result</p>
+            </div>
+        <p class="span">Likes: <span id="span1">0</span></p>
+        <button class="dog-btc" id="gog">dog pet</button>
     </div>
     <div class="dog">
         <h2>Simba</h2>
         <img
         src="https://images.unsplash.com/photo-1582456891925-a53965520520?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dwidth" alt="active dog">
         <p>He is cute and likes to walk!</p>
+         <div class="quiz-container">
+                <h3>'How many hairs does he have?'</h3>
+                <div class="quiz-botton">
+                    <button class="quiz-btn" onclick="checkAnswearSimba(1)">'1000m'</button>
+                    <button class="quiz-btn" onclick="checkAnswearSimba(2)">'1.4m'</button>
+                    <button class="quiz-btn" onclick="checkAnswearSimba(3)">'100k'</button>
+                    <button class="quiz-btn" onclick="checkAnswearSimba(4)">'0'</button>
+                </div>
+                <p id="resulte1">result</p>
+            </div>
+        <p class="span">Likes: <span id="span2">0</span></p>
+        <button class="dog-btc" id="bob">dog pet</button>
     </div>
     <div class="dog">
         <h2>Marc</h2>
         <img
         src="https://plus.unsplash.com/premium_photo-1663127305918-a789d0f6bf21?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="brave dog">
             <p class="bu">He is brave and likes to run!</p>
+            <div class="quiz-container">
+                <h3>'How old is he?'</h3>
+                <div class="quiz-botton">
+                    <button class="quiz-btn" onclick="checkAnswearMarc(1)">'3 years old'</button>
+                    <button class="quiz-btn" onclick="checkAnswearMarc(2)">'6 years old'</button>
+                    <button class="quiz-btn" onclick="checkAnswearMarc(3)">'7 years old'</button>
+                    <button class="quiz-btn" onclick="checkAnswearMarc(4)">'9 years old'</button>
+                </div>
+                <p id="resulte3">result</p>
+            </div>
+            <p class="span">Likes: <span id="span3">0</span></p>
+            <button class="dog-btc" id="dog">dog pet</button>
         </div>
     </div>
-
-    <h2 class="ma"><h2style="<text-align: center; color: brown; font-size: 40px;">Photo Grid</h2>
-    <div class="dog-grid">
-        <div class="grid-item large">Best Dog</div>
-        <div class="grid-item">Play</div>
-        <div class="grid-item">Eat</div>
-        <div class="grid-item">Sleep</div>
 
     </div>
 
@@ -53,6 +96,8 @@
         <a href="#">Site 2</a>
         <a href="#">Site 3</a>
     </div>
+
+    <p class="like">                                                                                          Did you like it? <span class="star">*****</span></p>
     
 </body>
 </html>

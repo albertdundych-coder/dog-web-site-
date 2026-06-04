@@ -99,3 +99,17 @@ function checkAnswearMarc (number){
         resulte3.style.color = 'red'
     }
 }
+function playSound (number){
+    let audioChange = ""
+    if (number ==1){
+        audioChange = "https://www.soundjay.com/nature/sounds/dog-bark-1.mp3"
+    } else if (number ==2){ 
+        audioChange = "https://www.soundjay.com/nature/sounds/dog-whining-01.mp3"
+    } else {
+        audioChange = "https://www.soundjay.com/nature/sounds/dog-growling-01.mp3"
+    }
+    if (audioChange !== "") {
+        const audio = new Audio(audioChange);
+        audio.play(); 
+    }
+}

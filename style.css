@@ -183,3 +183,29 @@ ul {
     border: none;
     
 }
+.audio-buttons {
+    border-radius: 20px;
+    background-color: darksalmon;
+    width: 275px;
+    margin: 10px auto;
+    text-align: center;
+    height: 25px;
+}
+.audio-btn {
+    border-radius: 20px;
+    border: none;
+}
+.audio-container {
+    font-size: 20px;
+}
+.like {
+    text-align: center;
+}
+#photo {
+    display: none;
+}
+.mistirius {
+    font-size: 25px;
+    background-color: rgb(185, 107, 44);
+    border-radius: 20px;
+}

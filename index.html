@@ -14,6 +14,13 @@
     <button class="toggle-button" id="toggle">light</button>
     <h1 class="header">DOGS</h1>
 
+    <div>
+        <button class="mistirius" onclick="screem(1)">???</button>
+        <button class="mistirius" onclick="screem(2)">???</button>
+    </div>
+
+    <img id="photo" src="https://mitadmissions.org/wp-content/uploads/2020/02/7C54BD23-DC57-48BF-AE52-C4CD347B1873.jpeg" width="300px">
+
     <div class="container">
         <div class="dog">
             <h2>Chapik</h2>
@@ -21,7 +28,7 @@
         src="Funny_Dog_S (1).avif" alt="funny dog!" alt="funny dog">
                     <p>He is funny and likes to climb on trees!</p>
                      <div class="quiz-container">
-                <h3>'How much trees did he climb?'</h3>
+                <h3>'On how much trees did he climb?'</h3>
                 <div class="quiz-botton">
                     <button class="quiz-btn" onclick="checkAnswearChapik(1)">'100'</button>
                     <button class="quiz-btn" onclick="checkAnswearChapik(2)">'13'</button>
@@ -29,6 +36,14 @@
                     <button class="quiz-btn" onclick="checkAnswearChapik(4)">'67'</button>
                 </div>
                 <p id="resulte2">result</p>
+            </div>
+              <div class="audio-container">
+                <h3>Press a button and listen the bark!</h3>
+                <div class="audio-buttons">
+                    <button class="audio-btn" onclick="playSoundChapik(1)">first bark</button>
+                    <button class="audio-btn" onclick="playSoundChapik(2)">second bark</button>
+                    <button class="audio-btn" onclick="playSoundChapik(3)">fird bark</button>
+                </div>
             </div>
                     <p class="span">Likes: <span id="span">0</span></p>
                     <button class="dog-btc" id="bog">dog pet</button> 
@@ -48,13 +63,21 @@
                 </div>
                 <p id="resulte">result</p>
             </div>
+  <div class="audio-container">
+                <h3>Press a button and listen the bark!</h3>
+                <div class="audio-buttons">
+                    <button class="audio-btn" onclick="playSoundBoba(1)">first bark</button>
+                    <button class="audio-btn" onclick="playSoundBoba(2)">second bark</button>
+                    <button class="audio-btn" onclick="playSoundBoba(3)">fird bark</button>
+                </div>
+            </div>
         <p class="span">Likes: <span id="span1">0</span></p>
         <button class="dog-btc" id="gog">dog pet</button>
     </div>
     <div class="dog">
         <h2>Simba</h2>
         <img
-        src="https://images.unsplash.com/photo-1582456891925-a53965520520?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dwidth" alt="active dog">
+        src="/simba.jpg" alt="active dog">
         <p>He is cute and likes to walk!</p>
          <div class="quiz-container">
                 <h3>'How many hairs does he have?'</h3>
@@ -65,6 +88,14 @@
                     <button class="quiz-btn" onclick="checkAnswearSimba(4)">'0'</button>
                 </div>
                 <p id="resulte1">result</p>
+            </div>
+             <div class="audio-container">
+                <h3>Press a button and listen the bark!</h3>
+                <div class="audio-buttons">
+                    <button class="audio-btn" onclick="playSoundSimba(1)">first bark</button>
+                    <button class="audio-btn" onclick="playSoundSimba(2)">second bark</button>
+                    <button class="audio-btn" onclick="playSoundSimba(3)">fird bark</button>
+                </div>
             </div>
         <p class="span">Likes: <span id="span2">0</span></p>
         <button class="dog-btc" id="bob">dog pet</button>
@@ -87,9 +118,9 @@
             <div class="audio-container">
                 <h3>Press a button and listen the bark!</h3>
                 <div class="audio-buttons">
-                    <button class="audio-btn" onclick="playSound(1)">first bark</button>
-                    <button class="audio-btn" onclick="playSound(2)">second bark</button>
-                    <button class="audio-btn" onclick="playSound(3)">fird bark</button>
+                    <button class="audio-btn" onclick="playSoundMarc(1)">first bark</button>
+                    <button class="audio-btn" onclick="playSoundMarc(2)">second bark</button>
+                    <button class="audio-btn" onclick="playSoundMarc(3)">fird bark</button>
                 </div>
             </div>
             <p class="span">Likes: <span id="span3">0</span></p>
@@ -105,7 +136,7 @@
         <a href="#">Site 3</a>
     </div>
 
-    <p class="like">                                                                                          Did you like it? <span class="star">*****</span></p>
+    <p class="like"> Did you like it? <span class="star">*****</span></p>
     
 </body>
 </html>

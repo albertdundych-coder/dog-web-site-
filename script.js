@@ -99,17 +99,70 @@ function checkAnswearMarc (number){
         resulte3.style.color = 'red'
     }
 }
-function playSound (number){
+function playSoundMarc (number){
     let audioChange = ""
     if (number ==1){
-        audioChange = "https://www.soundjay.com/nature/sounds/dog-bark-1.mp3"
+        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
     } else if (number ==2){ 
-        audioChange = "https://www.soundjay.com/nature/sounds/dog-whining-01.mp3"
+        audioChange = "https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
     } else {
-        audioChange = "https://www.soundjay.com/nature/sounds/dog-growling-01.mp3"
+        audioChange = "https://actions.google.com/sounds/v1/alarms/dinner_bell_triangle.ogg"
     }
     if (audioChange !== "") {
         const audio = new Audio(audioChange);
         audio.play(); 
+    }
+}
+function playSoundBoba (number){
+    let audioChange = ""
+    if (number ==1){
+        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+    } else if (number ==2){ 
+        audioChange = "https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
+    } else {
+        audioChange = "https://actions.google.com/sounds/v1/alarms/dinner_bell_triangle.ogg"
+    }
+    if (audioChange !== "") {
+        const audio = new Audio(audioChange);
+        audio.play(); 
+    }
+}
+function playSoundChapik (number){
+    let audioChange = ""
+    if (number ==1){
+        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+    } else if (number ==2){ 
+        audioChange = "https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
+    } else {
+        audioChange = "https://actions.google.com/sounds/v1/alarms/dinner_bell_triangle.ogg"
+    }
+    if (audioChange !== "") {
+        const audio = new Audio(audioChange);
+        audio.play(); 
+    }
+}
+function playSoundSimba (number){
+    let audioChange = ""
+    if (number ==1){
+        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+    } else if (number ==2){ 
+        audioChange = "https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
+    } else {
+        audioChange = "https://actions.google.com/sounds/v1/alarms/dinner_bell_triangle.ogg"
+    }
+    if (audioChange !== "") {
+        const audio = new Audio(audioChange);
+        audio.play(); 
+    }
+}
+function screem (number){
+    let misbtn = ""
+    if (number ==1){
+        misbtn = document.getElementById('photo').style.display = 'none';
+    } else { 
+        misbtn = document.getElementById('photo').style.display = 'block';
+        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+        const audio = new Audio(audioChange);
+        audio.play();   
     }
 }

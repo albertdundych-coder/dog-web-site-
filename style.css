@@ -209,3 +209,28 @@ ul {
     background-color: rgb(185, 107, 44);
     border-radius: 20px;
 }
+.dog-card {
+    border: 10px;
+    border-style: solid;
+    width: 325px;
+    border-radius: 20px;
+    border-color: rgb(79, 60, 0);
+    height: 450px;
+    margin-left: 230px;    
+}
+.dog-form {
+    border: 10px;
+    border-style: solid;
+    width: 325px;
+    border-radius: 20px;
+    border-color: rgb(79, 60, 0);
+    height: 450px;
+    margin-left: 450px;
+}
+
+.dog-project {
+    display: flex;
+}
+.card-title {
+    font-size: 25px;
+}

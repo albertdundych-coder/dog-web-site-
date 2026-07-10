@@ -166,3 +166,43 @@ function screem (number){
         audio.play();   
     }
 }
+const cardButton = document.getElementById('cardButton') 
+cardButton.addEventListener('click', function(){
+    const strong = document.getElementById('strong')
+    const raitingvalue = document.getElementById('strong-input').value
+    if (raitingvalue !== ""){
+        strong.innerText = raitingvalue;
+    }
+})
+const cardButton1 = document.getElementById('cardButton') 
+cardButton1.addEventListener('click', function(){
+    const name = document.getElementById('name')
+    const raitingvalue = document.getElementById('name-input').value
+    if (raitingvalue !== ""){
+        name.innerText = raitingvalue;
+    }
+})
+const cardButton2 = document.getElementById('cardButton') 
+cardButton2.addEventListener('click', function(){
+    const image = document.getElementById('image')
+    const raitingvalue = document.getElementById('image-input').value
+    if (raitingvalue !== ""){
+        image.src = raitingvalue;
+    }
+})
+const cardButton3 = document.getElementById('cardButton') 
+cardButton3.addEventListener('click', function(){
+    const beautiful = document.getElementById('beautiful')
+    const raitingvalue = document.getElementById('beautiful-input').value
+    if (raitingvalue !== ""){
+        beautiful.innerText = raitingvalue;
+    }
+})
+const cardButton4 = document.getElementById('cardButton') 
+cardButton4.addEventListener('click', function(){
+    const raiting = document.getElementById('raiting')
+    const raitingvalue = document.getElementById('raiting-input').value
+    if (raitingvalue !== ""){
+        raiting.innerText = raitingvalue;
+    }
+})

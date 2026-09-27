@@ -102,11 +102,11 @@ function checkAnswearMarc (number){
 function playSoundMarc (number){
     let audioChange = ""
     if (number ==1){
-        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/dog_barking.ogg"
     } else if (number ==2){ 
-        audioChange = "https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/distant_dog_barking.ogg"
     } else {
-        audioChange = "https://actions.google.com/sounds/v1/alarms/dinner_bell_triangle.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/dog_whining.ogg"
     }
     if (audioChange !== "") {
         const audio = new Audio(audioChange);
@@ -116,11 +116,11 @@ function playSoundMarc (number){
 function playSoundBoba (number){
     let audioChange = ""
     if (number ==1){
-        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/dog_barking.ogg"
     } else if (number ==2){ 
-        audioChange = "https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/distant_dog_barking.ogg"
     } else {
-        audioChange = "https://actions.google.com/sounds/v1/alarms/dinner_bell_triangle.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/dog_whining.ogg"
     }
     if (audioChange !== "") {
         const audio = new Audio(audioChange);
@@ -130,11 +130,11 @@ function playSoundBoba (number){
 function playSoundChapik (number){
     let audioChange = ""
     if (number ==1){
-        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/dog_barking.ogg"
     } else if (number ==2){ 
-        audioChange = "https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/distant_dog_barking.ogg"
     } else {
-        audioChange = "https://actions.google.com/sounds/v1/alarms/dinner_bell_triangle.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/dog_whining.ogg"
     }
     if (audioChange !== "") {
         const audio = new Audio(audioChange);
@@ -144,11 +144,11 @@ function playSoundChapik (number){
 function playSoundSimba (number){
     let audioChange = ""
     if (number ==1){
-        audioChange = "https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/dog_barking.ogg"
     } else if (number ==2){ 
-        audioChange = "https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/distant_dog_barking.ogg"
     } else {
-        audioChange = "https://actions.google.com/sounds/v1/alarms/dinner_bell_triangle.ogg"
+        audioChange = "https://actions.google.com/sounds/v1/animals/dog_whining.ogg"
     }
     if (audioChange !== "") {
         const audio = new Audio(audioChange);
@@ -205,4 +205,11 @@ cardButton4.addEventListener('click', function(){
     if (raitingvalue !== ""){
         raiting.innerText = raitingvalue;
     }
+})
+
+const soundClick = document.getElementById('press-pls')
+const sound = new Audio("https://actions.google.com/sounds/v1/animals/cat_purr.ogg")
+
+soundClick.addEventListener('click', function() {
+    sound.play()
 })

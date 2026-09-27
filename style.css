@@ -43,7 +43,7 @@ h1 {
     width: 100%;
     height: auto;
     border-radius: 10px
-    transition: transform 0.4s ease;
+    transition transform 0.4s ease;
 }
 
 .dog:hover img {
@@ -216,7 +216,8 @@ ul {
     border-radius: 20px;
     border-color: rgb(79, 60, 0);
     height: 450px;
-    margin-left: 230px;    
+    margin-left: 230px;  
+
 }
 .dog-form {
     border: 10px;
@@ -224,7 +225,7 @@ ul {
     width: 325px;
     border-radius: 20px;
     border-color: rgb(79, 60, 0);
-    height: 450px;
+    height: 275px;
     margin-left: 450px;
 }
 
@@ -233,4 +234,47 @@ ul {
 }
 .card-title {
     font-size: 25px;
+}
+
+.press-pls-container {
+    text-align: center;
+}
+
+.press-pls {
+    font-size: 25px;
+    background-color: rgb(185, 107, 44);
+    background-size: 2px;
+    border-radius: 20px;
+}
+
+
+label {
+    background: #ffb700;
+    color: white;
+}
+
+label1 {
+    width: 350px;
+    background: #ffb700;
+    border-radius: 30px;
+}
+
+label3 {
+    border: 20px #ffc400;
+    border-radius: 30px;
+    background: #ffb700;
+    color: white;
+}
+
+label4 {
+    outline: none;
+    border-color: #ffc400;
+}
+
+card-button {
+    margin-top: 18px;
+    border-radius: 30px;
+    background: #ffb700;
+    color: white;
+    font-size: 16px;
 }

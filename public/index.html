@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Dogs Gallery</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button class="toggle-button" id="toggle">light</button>
+    <h1 class="header">DOGS</h1>
+
+    <div>
+        <button class="mistirius" onclick="screem(1)">???</button>
+        <button class="mistirius" onclick="screem(2)">???</button>
+    </div>
+
+    <img id="photo" src="https://mitadmissions.org/wp-content/uploads/2020/02/7C54BD23-DC57-48BF-AE52-C4CD347B1873.jpeg" width="300px">
+
+    <div class="container">
+        <div class="dog">
+            <h2>Chapik</h2>
+            <img
+        src="images/funny-dog.avif" alt="funny dog!" alt="funny dog">
+                    <p>He is funny and likes to climb on trees!</p>
+                     <div class="quiz-container">
+                <h3>'On how much trees did he climb?'</h3>
+                <div class="quiz-botton">
+                    <button class="quiz-btn" onclick="checkAnswearChapik(1)">'100'</button>
+                    <button class="quiz-btn" onclick="checkAnswearChapik(2)">'13'</button>
+                    <button class="quiz-btn" onclick="checkAnswearChapik(3)">'28'</button>
+                    <button class="quiz-btn" onclick="checkAnswearChapik(4)">'67'</button>
+                </div>
+                <p id="resulte2">result</p>
+            </div>
+              <div class="audio-container">
+                <h3>Press a button and listen the bark!</h3>
+                <div class="audio-buttons">
+                    <button class="audio-btn" onclick="playSoundChapik(1)">first bark</button>
+                    <button class="audio-btn" onclick="playSoundChapik(2)">second bark</button>
+                    <button class="audio-btn" onclick="playSoundChapik(3)">fird bark</button>
+                </div>
+            </div>
+                    <p class="span">Likes: <span id="span">0</span></p>
+                    <button class="dog-btc" id="bog">dog pet</button> 
+    </div>
+    <div class="dog">
+        <h2>Boba</h2>
+        <img
+        src="https://plus.unsplash.com/premium_photo-1694819488591-a43907d1c5cc?q=80&w=1014&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cute dog">
+        <p>He is cute and likes to be on the bed!</p>
+        <div class="quiz-container">
+                <h3>'How much % is he cute?'</h3>
+                <div class="quiz-botton">
+                    <button class="quiz-btn" onclick="checkAnswear(1)">'100%'</button>
+                    <button class="quiz-btn" onclick="checkAnswear(2)">'10000%'</button>
+                    <button class="quiz-btn" onclick="checkAnswear(3)">'50%'</button>
+                    <button class="quiz-btn" onclick="checkAnswear(4)">'75%'</button>
+                </div>
+                <p id="resulte">result</p>
+            </div>
+  <div class="audio-container">
+                <h3>Press a button and listen the bark!</h3>
+                <div class="audio-buttons">
+                    <button class="audio-btn" onclick="playSoundBoba(1)">first bark</button>
+                    <button class="audio-btn" onclick="playSoundBoba(2)">second bark</button>
+                    <button class="audio-btn" onclick="playSoundBoba(3)">fird bark</button>
+                </div>
+            </div>
+        <p class="span">Likes: <span id="span1">0</span></p>
+        <button class="dog-btc" id="gog">dog pet</button>
+    </div>
+    <div class="dog">
+        <h2>Simba</h2>
+        <img
+        src="images/simba.jpg" alt="active dog">
+        <p>He is cute and likes to walk!</p>
+         <div class="quiz-container">
+                <h3>'How many hairs does he have?'</h3>
+                <div class="quiz-botton">
+                    <button class="quiz-btn" onclick="checkAnswearSimba(1)">'1000m'</button>
+                    <button class="quiz-btn" onclick="checkAnswearSimba(2)">'1.4m'</button>
+                    <button class="quiz-btn" onclick="checkAnswearSimba(3)">'100k'</button>
+                    <button class="quiz-btn" onclick="checkAnswearSimba(4)">'0'</button>
+                </div>
+                <p id="resulte1">result</p>
+            </div>
+             <div class="audio-container">
+                <h3>Press a button and listen the bark!</h3>
+                <div class="audio-buttons">
+                    <button class="audio-btn" onclick="playSoundSimba(1)">first bark</button>
+                    <button class="audio-btn" onclick="playSoundSimba(2)">second bark</button>
+                    <button class="audio-btn" onclick="playSoundSimba(3)">fird bark</button>
+                </div>
+            </div>
+        <p class="span">Likes: <span id="span2">0</span></p>
+        <button class="dog-btc" id="bob">dog pet</button>
+    </div>
+    <div class="dog">
+        <h2>Marc</h2>
+        <img
+        src="https://plus.unsplash.com/premium_photo-1663127305918-a789d0f6bf21?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="brave dog">
+            <p class="bu">He is brave and likes to run!</p>
+            <div class="quiz-container">
+                <h3>'How old is he?'</h3>
+                <div class="quiz-botton">
+                    <button class="quiz-btn" onclick="checkAnswearMarc(1)">'3 years old'</button>
+                    <button class="quiz-btn" onclick="checkAnswearMarc(2)">'6 years old'</button>
+                    <button class="quiz-btn" onclick="checkAnswearMarc(3)">'7 years old'</button>
+                    <button class="quiz-btn" onclick="checkAnswearMarc(4)">'9 years old'</button>
+                </div>
+                <p id="resulte3">result</p>
+            </div>
+            <div class="audio-container">
+                <h3>Press a button and listen the bark!</h3>
+                <div class="audio-buttons">
+                    <button class="audio-btn" onclick="playSoundMarc(1)">first bark</button>
+                    <button class="audio-btn" onclick="playSoundMarc(2)">second bark</button>
+                    <button class="audio-btn" onclick="playSoundMarc(3)">fird bark</button>
+                </div>
+            </div>
+            <p class="span">Likes: <span id="span3">0</span></p>
+            <button class="dog-btc" id="dog">dog pet</button>
+        </div>
+    </div>
+    <iframe id="video" widht="300" heigh="170" allow="autoplay; fullsreen">   </iframe>
+    </div>
+<div class="dog-project">
+    <div class="dog-card" id="dogcard">
+        <div>
+            <p class="raiting" id="raiting"> raiting: 87</p>
+        </div>
+        <p class="name" id="name"> name: Dogi</p>
+        <img id="image"src="https://plus.unsplash.com/premium_photo-1663127305918-a789d0f6bf21?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="picture" width="300px">
+        <p id="strong"> strong: 99</p>
+        <p id="beautiful"> beautiful: 67</p>
+    </div>
+    <div class="dog-form">
+        <h3 class="card-title">Here u can create your card!</h6>
+        <label class="label">Enter dog raiting!</label>
+        <input id="raiting-input" placeholder="87" type="text">
+        <label class="label1">Enter dog name!</label>
+        <input id="name-input" placeholder="bunny" type="text">
+        <label class="label2">Enter your image!</label>
+        <input id="image-input" placeholder="enter your URL image!" type="text">
+        <label class="label3">Enter your strong!</label>
+        <input id="strong-input" placeholder="99" type="text">
+        <label class="label4">Enter your beautiful!</label>
+        <input id="beautiful-input" placeholder="76" type="text">
+        <button id="cardButton" class="card-button">press to apply</button>
+    </div>
+</div>
+    <div class="links">
+        <a href="https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?fecha=20260618&ruta=Indice113_gl.html">Site 1</a>
+        <a href="https://en.wikipedia.org/wiki/Dog">Site 2</a>
+        <a href="https://sites.google.com/new?hl=ES">Site 3</a>
+    </div>
+<div class="press-pls-container">
+    <button id="press-pls" class = "press-pls">press pls not a cat purrr</button>
+</div>
+
+    <p class="like"> Did you like it? <span class="star">*****</span></p>
+    
+</body>
+</html>
+
+// js server and how it works?

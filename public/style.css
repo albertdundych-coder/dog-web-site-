@@ -1,0 +1,279 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.dog {
+    background-color: white;
+    min-width: 250px;
+    width: calc(25% - 20px);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.dog:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dog img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px
+    transition transform 0.4s ease;
+}
+
+.dog:hover img {
+    transform: scale(0.9);
+}
+
+p {
+    font-size: 25px;
+    color: rgb(59, 55, 55);
+}
+
+.dog p {
+    transition: transform 0.5 ease;
+}
+
+.dog:hover p {
+    color:darkblue ;
+}
+
+.links a {
+    text-decoration: none;
+    color: brown;
+    margin-right: 20px;
+    font-size: 70px;
+    display: inline-block;
+    transition: transform 0.4s ease;
+}
+
+.links a:hover {
+    color: rgb(150, 105, 26);
+    transform: scale(0.9);
+}
+
+@media (max-width: 600px) {
+    .dog {
+        width: 100%;
+    }
+    h1 {
+    font-size: 35px;
+    }
+}
+
+ul {
+    font-size: 28px;
+}
+
+@media (max-width: 800px) {
+    .dog h2{
+        color: pink;
+    }}
+
+.bu {
+    color: blue;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.ma {
+    font-size: 50px;
+}
+.links {
+    text-align: center;
+    font-family:"Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dog-btc {
+    color: lightsalmon;
+    background-color: brown;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 20px;
+}
+.dog-btc:hover {
+    background-color: rgp(150, 105, 26);
+    transform: scale(1.10);
+}
+.like {
+    font-size: 60px;
+    text-align: center;
+}
+.star {
+    color: rgb(255, 204, 0);
+    font-size: 100px;
+}
+.toggle-button {
+    font-size: 40px;
+    color: rgb(255, 179, 0);
+    border-radius: 40px;
+    background-color: rgb(168, 131, 0);
+    width: 120px;
+}
+.dark-mode {
+    color: gray;
+    background-image: url("https://images.unsplash.com/photo-1615789591457-74a63395c990?q=80&w=1974&auto=format&fit=crop"); ;
+}
+
+.header {
+    font-size: 100px;
+}
+.span {
+    background-color: rgb(255, 179, 0);
+    border-radius: 20px;
+    border: none;
+    color: rgb(131, 94, 0);
+    width: 100px;
+    
+}
+
+.span {
+    background-color: rgb(255, 179, 0);
+    border-radius: 20px;
+    color: rgb(131, 94, 0);
+    width: 100px;
+    margin: 10px auto;      /* центрирует блок */
+    text-align: center;  /* центрирует текст внутри */
+}
+
+.dark-mode .toggle-button {
+    background-color: brown;
+    color: lightsalmon;
+}
+.quiz-botton {
+    border-radius: 20px;
+    background-color: rgb(205, 157, 0);
+    width: 275px;
+    margin: 10px auto;      /* центрирует блок */
+    text-align: center;  /* центрирует текст внутри */
+    height: 25px;
+    color: salmon;
+}
+.quiz-btn {
+    border-radius: 20px;
+    border: none;
+    
+}
+.audio-buttons {
+    border-radius: 20px;
+    background-color: darksalmon;
+    width: 275px;
+    margin: 10px auto;
+    text-align: center;
+    height: 25px;
+}
+.audio-btn {
+    border-radius: 20px;
+    border: none;
+}
+.audio-container {
+    font-size: 20px;
+}
+.like {
+    text-align: center;
+}
+#photo {
+    display: none;
+}
+.mistirius {
+    font-size: 25px;
+    background-color: rgb(185, 107, 44);
+    border-radius: 20px;
+}
+.dog-card {
+    border: 10px;
+    border-style: solid;
+    width: 325px;
+    border-radius: 20px;
+    border-color: rgb(79, 60, 0);
+    height: 450px;
+    margin-left: 230px;  
+
+}
+.dog-form {
+    border: 10px;
+    border-style: solid;
+    width: 325px;
+    border-radius: 20px;
+    border-color: rgb(79, 60, 0);
+    height: 275px;
+    margin-left: 450px;
+}
+
+.dog-project {
+    display: flex;
+}
+.card-title {
+    font-size: 25px;
+}
+
+.press-pls-container {
+    text-align: center;
+}
+
+.press-pls {
+    font-size: 25px;
+    background-color: rgb(185, 107, 44);
+    background-size: 2px;
+    border-radius: 20px;
+}
+
+
+.label {
+    background: #ffb700;
+    color: white;
+}
+
+.label1 {
+    background: #ffb700;
+    border-radius: 30px;
+}
+
+.label3 {
+    border: 20px #ffc400;
+    border-radius: 30px;
+    background: #ffb700;
+    color: white;
+}
+
+.label4 {
+    outline: none;
+    border-color: #ffc400;
+}
+
+.card-button {
+    margin-top: 18px;
+    border-radius: 30px;
+    background: #ffb700;
+    color: white;
+    font-size: 16px;
+}
